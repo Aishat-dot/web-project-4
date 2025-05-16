@@ -1,0 +1,31 @@
+.active {
+    background-color: #51355A;
+    color:#FFF8F0;
+}
+section {
+    margin-top: 30px;
+    font-size: 36px;
+    border-top: 3px solid #9E2B25;
+}
+footer {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.lastsection {
+    border-bottom: 3px solid #9E2B25;
+}
+section p {
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+    color: white;
+    margin-top: 120px;
+    margin-bottom: 350px;
+    text-shadow: 2px 1px 4px black
+}
+h2 {
+    font-size: 40px;
+}

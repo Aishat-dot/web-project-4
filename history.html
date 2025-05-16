@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="css/external.css">
+    <style>
+        /*Creates a 2% margin to the top and bottom of the website, and a 5% margin to the left and right*/
+        body {
+            margin: 2% 5%;
+            background: url(images/NOpast.png) no-repeat;
+            background-size: 100% auto;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            padding: 18px 36px;
+        }
+        /*Displays list in nav as flex, gives it a background color of black, and gives no marker to the list*/
+        nav ul{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            list-style-type: none;
+        }
+        /*Gives list content a background of white, a margin of 5px and padding of 10px on all sides, and a font size of 36px*/
+        nav ul li {
+            background-color: white;
+            font-size: 36px;
+        }
+        /*Removes underline from links within the list which is in the nav*/
+        nav ul li a {
+            text-decoration: none;
+            background-color: #2A0C4E;
+            color:#FFF8F0;
+            padding: 18px 36px;
+        }
+        nav ul li a:hover {
+            background-color: #FFF8F0;
+            color: #2A0C4E;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <!--Navigation bar-->
+            <nav>
+                <!--Unordered list-->
+                <ul>
+                    <!--List content, links to other pages... Link to history page has a class with "active" as the value-->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="community-features.html">Community Features</a></li>
+                    <li><a class="active" href="history.html">History</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <h1>HISTORY</h1>
+        </header>
+        <section>
+            <h2>Kapyong Barracks</h2>
+            <p>
+                Naawi-Oodena is located on the former site of the Kapyong Barracks, a military base previously used by the Canadian Forces. 
+                The base was vacated in 2004. 
+                After its closure, the federal government planned to transfer the land to the Canada Lands Company for redevelopment, 
+                which sparked interest and legal action from Treaty One First Nations due to outstanding land claims.
+            </p>
+        </section>
+        <section>
+            <h2>Land Claim</h2>
+            <p>
+                Several Treaty One First Nations opposed the federal government’s plan to transfer the former Kapyong Barracks land, 
+                citing their right to consultation due to unresolved treaty land entitlements. 
+                They took the matter to court, asserting that the government had a legal duty to engage with them before making decisions about the land. 
+                In 2015, the federal court ruled in favor of the First Nations, stating that the 
+                Crown had indeed failed to fulfill its obligation to consult and accommodate the Treaty One Nations. 
+                This ruling was a key moment in advancing Indigenous land rights.
+            </p>
+        </section>
+        <section class="lastsection">
+            <h2>Launch</h2>
+            <p>In 2019, Treaty One First Nations and the Canadian government signed a landmark agreement returning the former Kapyong Barracks to 
+                Indigenous stewardship. Renamed Naawi-Oodena, meaning “Centre of the Heart and Community,” the site is envisioned as a vibrant urban reserve. 
+                Plans include housing, commercial space, cultural and governance institutions, and educational and recreational facilities, 
+                all rooted in First Nations identity and focused on reconciliation, community building, and economic development.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Treaty 1 Nations (T1N)</p>
+        <p>&copy; 2025 Canada Lands Company, Canada Lands Company CLC Limited</p>
+    </footer>
+</body>
+</html>
