@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
     <title>About Naawi-Oodena</title>
     <link rel="stylesheet" href="css/external.css">
+    <!--Internal CSS starts-->
     <style>
-        /*Creates a 2% margin to the top and bottom of the website, and a 5% margin to the left and right*/
+        /*Creates a 2% margin to the top and bottom of the website, and a 5% margin to the left and right.
+        Makes the background image ... without repeating, makes background width 100% of the web page, 
+        and background height auto*/
         body {
             margin: 2% 5%;
-            background-image: url(images/blueprint.png) no-repeat;
+            background: url(images/blueprint.png) no-repeat;
             background-size: 100% auto;
         }
+        /*Makes nav bar stick to top of page when you scroll, gives nav bar a top and bottom padding of 12px,
+        and a left and right padding of 36px*/
         nav {
             position: sticky;
             top: 0;
-            padding: 18px 36px;
+            padding: 12px 36px;
         }
-        /*Displays list in nav as flex, gives it a background color of black, and gives no marker to the list*/
+        /*Displays list in nav as flex, makes it unable to wrap, aligns content to center, 
+        aligns items to center, aligns nav bar to center, and gives  no marker to the list*/
         nav ul{
             display: flex;
             flex-wrap: nowrap;
@@ -26,32 +33,36 @@
             align-content: center;
             list-style-type: none;
         }
-        /*Gives list content a background of white, a margin of 5px and padding of 10px on all sides, and a font size of 36px*/
+        /*Gives list content a background of white and a font size of 36px*/
         nav ul li {
             background-color: white;
             font-size: 36px;
         }
-        /*Removes underline from links within the list which is in the nav*/
+        /*Removes underline from links within the list in the nav, gives a background color of russian violet, 
+        a font color of floral white, padding on the top and bottom of 18px, and left and right padding of 36px*/
         nav ul li a {
             text-decoration: none;
             background-color: #2A0C4E;
             color:#FFF8F0;
             padding: 18px 36px;
         }
+        /**/
         nav ul li a:hover {
             background-color: #FFF8F0;
             color: #2A0C4E;
         }
     </style>
+    <!--Internal CSS ends-->
 </head>
 <body>
     <main>
+        <!--Header-->
         <header>
             <!--Navigation bar-->
             <nav>
                 <!--Unordered list-->
                 <ul>
-                    <!--List content, links to other pages... Link to history page has a class with "active" as the value-->
+                    <!--List content, links to other pages... Link to about page has a class with "active" as the value-->
                     <li><a href="index.html">Home</a></li>
                     <li><a href="community-features.html">Community Features</a></li>
                     <li><a href="history.html">History</a></li>
@@ -59,10 +70,14 @@
                     <li><a href="contact-us.html">Contact Us</a></li>
                 </ul>
             </nav>
+            <!--Heading 1-->
             <h1>ABOUT</h1>
         </header>
+        <!--Section-->
         <section>
+            <!--Heading 2-->
             <h2>What is it?</h2>
+            <!--Paragraph explaing what Naawi-Oodena is-->
             <p>
                 Naawi-Oodena is a significant Indigenous-led urban development located in Winnipeg on the former Kapyong Barracks site. 
                 The land was reclaimed by Treaty One First Nations after years of legal action and negotiation, 
@@ -71,6 +86,7 @@
         </section>
         <section>
             <h2>What is it for?</h2>
+            <!--Paragraph explaining the purpose of Naawi-Oodena-->
             <p>
                 The project was designed to be Canada’s largest urban reserve, with plans for thousands of homes and over a million square feet of commercial space. 
                 This development will generate substantial economic activity, creating jobs, training opportunities, and long-term business growth for Indigenous communities.
@@ -78,14 +94,17 @@
         </section>
         <section>
             <h2>What else?</h2>
+            <!--Paragraph explaining what else other than economics Naawi-Oodena is for-->
             <p>
                 Beyond economics, Naawi-Oodena is a cultural landmark. It will feature Indigenous design, language, and art, 
                 helping to revitalize and celebrate Indigenous culture in an urban setting. 
                 The community will serve not just as a residential and commercial area, but as a place of cultural expression and pride.
             </p>
         </section>
+        <!--Section with a class value of lastsection-->
         <section class="lastsection">
             <h2>Reconciliation</h2>
+            <!--Paragaraph explaining how it is tied to reconciliation-->
             <p>
                 Naawi-Oodena represents a new model of reconciliation and collaboration. 
                 Through partnerships with municipal and federal governments, the project supports 
@@ -93,5 +112,9 @@
             </p>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2025 Treaty 1 Nations (T1N)</p>
+        <p>&copy; 2025 Canada Lands Company, Canada Lands Company CLC Limited</p>
+    </footer>
 </body>
 </html>

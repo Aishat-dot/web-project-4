@@ -1,22 +1,28 @@
+/*Gives all elements with a class value of active a background color of english violet and a font color of floral white*/
 .active {
     background-color: #51355A;
     color:#FFF8F0;
 }
+/*Gives section element across all pages a top margin of 30px and a 3px solid auburn border at the top*/
 section {
     margin-top: 30px;
-    font-size: 36px;
     border-top: 3px solid #9E2B25;
 }
+/*Makes footer font size 18px, and bottom magin 30px*/
 footer {
     font-size: 18px;
     margin-bottom: 30px;
 }
+/*gives a 3px solid auburn border at the bottom of every element with a class value of lastsection*/
 .lastsection {
     border-bottom: 3px solid #9E2B25;
 }
+/*Makes the font size fo paragraphs in section elements 20px*/
 section p {
     font-size: 20px;
 }
+/*Aligns text to center, gives a sans-serif font family, makes font size 200px, font color white, 
+top margin 120px, bottom margin 350px, text shadow go down 2px, go to the right 1px, 4px blurry, and makes it black*/
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,6 +32,14 @@ h1 {
     margin-bottom: 350px;
     text-shadow: 2px 1px 4px black
 }
+/*Makes font size 40px*/
 h2 {
     font-size: 40px;
+}
+/*Makes nav bar stick to top of page when you scroll, gives nav bar a top and bottom padding of 12px,
+and a left and right padding of 36px*/
+nav {
+    position: sticky;
+    top: 0;
+    padding: 12px 36px;
 }
