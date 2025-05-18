@@ -3,6 +3,9 @@
     background-color: #51355A;
     color:#FFF8F0;
 }
+body {
+    background-color: #FAFADC;
+}
 /*Gives section element across all pages a top margin of 30px and a 3px solid auburn border at the top*/
 section {
     margin-top: 30px;
@@ -43,7 +46,6 @@ nav {
     top: 0;
     padding: 12px 36px;
 }
-
 footer p {
     color: #565254;
 }
