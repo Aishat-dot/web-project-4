@@ -1,7 +1,11 @@
 /*
 I chose an analogous color scheme because I felt that it best represented the purpose of my website.
+An analogous color scheme is a color scheme that uses colors that are next to each other on the color wheel.
+The way the colors go from 1 to the other is similar to the way Naawi-Oodena went from the Kapyong Barracks to Naawi-Oodena,
+which is why I chose this color scheme.
 */
-/*Gives all elements with a class value of active a background color of english violet and a font color of floral white*/
+/*Gives all elements with a class value of active a background color of english violet and a font color of floral white.
+It uses english violet which is one of the colors of my color scheme*/
 .active {
     background-color: #51355A;
     color:#FFF8F0;
@@ -9,7 +13,7 @@ I chose an analogous color scheme because I felt that it best represented the pu
 body {
     margin: 2% 5%;
 }
-/*Gives section element across all pages a top margin of 30px and a 3px solid auburn border at the top*/
+/*Gives section element across all pages a top margin of 30px and a 3px solid english violet border at the top.*/
 section {
     margin-top: 30px;
     border-top: 3px solid #51355A;
@@ -19,26 +23,27 @@ footer {
     font-size: 18px;
     margin-bottom: 30px;
 }
-/*gives a 3px solid auburn border at the bottom of every element with a class value of lastsection*/
+/*gives a 3px solid english violet border at the bottom of every element with a class value of lastsection*/
 .lastsection {
     border-bottom: 3px solid #51355A
 }
-/*Makes the font size fo paragraphs in section elements 20px*/
+/*Makes font size for paragraphs in section elements 20px*/
 section p {
     font-size: 20px;
 }
-/*Aligns text to center, gives a sans-serif font family, makes font size 200px, font color white, 
-top margin 120px, bottom margin 350px, text shadow go down 2px, go to the right 1px, 4px blurry, and makes it black*/
+/*Aligns text to center, gives a font family of Franklin Gothic Medium, Arial Narrow, Arial, and Sans-Serif, 
+makes font size 180px, font color floral white, top margin 80px, bottom margin 350px, 
+text shadow down 2px, to the right 1px, 4px blurry, and makes it black*/
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 180px;
-    color: white;
+    color: #FFF8F0;
     margin-top: 80px;
     margin-bottom: 350px;
-    text-shadow: 2px 1px 4px black
+    text-shadow: 2px 1px 4px black;
 }
-/*Makes font size 40px*/
+/*Makes heading 2 font size 40px*/
 h2 {
     font-size: 40px;
 }
@@ -47,8 +52,9 @@ and a left and right padding of 36px*/
 nav {
     position: sticky;
     top: 0;
-    padding: 12px 36px;
+    padding: 12px 24px;
 }
+/*Gives footer paragraphs a font color of ash plum*/
 footer p {
     color: #565254;
 }
