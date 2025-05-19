@@ -19,21 +19,21 @@
         <fieldset>
             <legend><b>General Inquiries:</b></legend>
             <form>
-                <label for="fname">First Name:</label>
+                <label for="fname">First Name: <span style="color: #565254;">(required)</span></label>
                 <br/>
-                <input type="text" id="fname" name="fname" placeholder="Jack">
+                <input type="text" id="fname" name="fname" placeholder="Jack" required>
                 <br/>
                 <label for="lname">Last Name:</label>
                 <br/>
                 <input type="text" id="lname" name="lname" placeholder="Bauer">
                 <br/>
-                <label for="email">Email:</label>
+                <label for="email">Email: <span style="color: #565254;">(required)</span></label>
                 <br/>
                 <input type="text" id="email" name="email" placeholder="jackb@example.com">
                 <br/>
-                <label for="inquiries">Inquiry: </label>
+                <label for="inquiries">Inquiry:</label>
                 <br/>
-                <textarea name="inquiries" id="inquiries" rows="12" cols="60"></textarea>
+                <textarea name="inquiries" id="inquiries" rows="12" cols="60" required></textarea>
                 <br/>
                 <input type="submit" value="Submit">
             </form>
