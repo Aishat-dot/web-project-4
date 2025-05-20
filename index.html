@@ -15,7 +15,7 @@ Date Last Modified: 05/19/25
     <style>
         /*
         Gives background image of naawi-oodena with no repetition, makes width of background fill page and 
-        sets height to auto. Gives background color of floral white.
+        sets height to auto.
         */
         body {
             background: url(images/blueprint.png) no-repeat;
@@ -25,10 +25,19 @@ Date Last Modified: 05/19/25
         main {
             color: black;
         }
+        iframe {
+            transition: width, height, 3s;
+        }
+        iframe:hover {
+            width: 784px;
+            height: 441px;
+        }
     </style>
 </head>
 <body>
+    <!--Main element containing the header, nav bar, and sections-->
     <main>
+        <!--Header element containing the nav bar and heading 1-->
         <header>
             <!--Navigation bar-->
             <nav>
@@ -45,6 +54,7 @@ Date Last Modified: 05/19/25
             <!--Largest heading-->
             <h1>NAAWI-OODENA</h1>
         </header>
+        <!--Section element vaguely explaining Naawi-Oodena-->
         <section>
             <div>
                 <h2>What is Naawi-Oodena?</h2>
@@ -61,6 +71,7 @@ Date Last Modified: 05/19/25
                 </p>
             </div>
         </section>
+        <!--Section element with a class value of last section showing a Youtube video of the naming ceremony of Naawi-Oodena-->
         <section class="lastsection">
             <div>
                 <p>Here is a video of the naming ceremony of Naawi-Oodena:</p>
@@ -68,8 +79,10 @@ Date Last Modified: 05/19/25
             </div>
         </section>
     </main>
+    <!--Footer element containing sources and copyright-->
     <footer>
-        <div>>
+        <div>
+            <!--Sources for information accross the web page-->
             <h3>Sources:</h3>
             <a href="https://treaty1.ca/wp-content/uploads/2021/11/Kapyong-Barracks-Master-Plan.pdf" target="_blank" title="Link to Naawi-Oodena Master Plan PDF">Naawi-Oodena Master Plan</a>
             <br/>
@@ -79,8 +92,9 @@ Date Last Modified: 05/19/25
             <br/>
         </div>
         <div>
+            <!--Copyright. Treaty One Nations & Canada Lands Company-->
             <p>&copy; 2025 Treaty 1 Nations (T1N)</p>
-            <p>&copy; 2025 Canada Lands Company,Canada Lands Company CLC Limited. <i>All rights reserved.</i></p>
+            <p>&copy; 2025 Canada Lands Company, Canada Lands Company CLC Limited. <i>All rights reserved.</i></p>
         </div>
     </footer>
 </body>

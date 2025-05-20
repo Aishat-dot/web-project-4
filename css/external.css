@@ -4,6 +4,8 @@ An analogous color scheme is a color scheme that uses colors that are next to ea
 The way the colors go from 1 to the other is similar to the way Naawi-Oodena went from the Kapyong Barracks to Naawi-Oodena,
 which is why I chose this color scheme.
 */
+
+/*Makes the total width and height of an element include the padding and border across all webpages*/
 * {
     box-sizing: border-box;
     box-sizing: -moz-border-box;
