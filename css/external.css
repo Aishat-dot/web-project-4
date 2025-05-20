@@ -20,6 +20,9 @@ It uses english violet which is one of the colors of my color scheme*/
 body {
     margin: 2% 5%;
 }
+main {
+    line-height: 1.6rem;
+}
 /*Gives section element across all pages a top margin of 30px and a 3px solid english violet border at the top.*/
 section {
     margin-top: 30px;
