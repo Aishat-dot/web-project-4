@@ -54,6 +54,16 @@ nav {
     top: 0;
     padding: 12px 24px;
 }
+/*Displays list in nav as flex, flex-wrap value as no wrap.
+Justify content value is center, as well as align content and align items.
+Removes list styling*/
+nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
 /*Gives footer paragraphs a font color of ash plum*/
 footer p {
     color: #565254;
