@@ -24,6 +24,7 @@ body {
 section {
     margin-top: 30px;
     border-top: 3px solid #51355A;
+    line-height: 1.6rem;
 }
 /*Makes footer font size 18px, and bottom magin 30px*/
 footer {
