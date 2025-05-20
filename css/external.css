@@ -22,9 +22,10 @@ body {
 }
 /*Gives section element across all pages a top margin of 30px and a 3px solid english violet border at the top.*/
 section {
-    margin-top: 30px;
+    margin-top: 10px;
     border-top: 3px solid #51355A;
     line-height: 1.6rem;
+    letter-spacing: 0.8px;
 }
 /*Makes footer font size 18px, and bottom magin 30px*/
 footer {
