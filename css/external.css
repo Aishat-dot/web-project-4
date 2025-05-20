@@ -55,7 +55,7 @@ nav {
     padding: 12px 24px;
 }
 /*Displays list in nav as flex, flex-wrap value as no wrap.
-Justify content value is center, as well as align content and align items.
+Centers content horizontally, and centers items.
 Removes list styling*/
 nav ul{
     display: flex;
@@ -63,17 +63,19 @@ nav ul{
     justify-content: center;
     align-items: center;
     list-style-type: none;
-}/*Gives list content a background of white and a font size of 36px*/
+}/*Gives list content a font size of 36px*/
 nav ul li {
     font-size: 36px;
 }
-/*Removes underline from links within the list which is in the nav*/
+/*Removes underline from links within the list in the nav, gives a background color of Russian Violet (one of the colors i chose),
+sets a font color of floral white, sets top and bottom padding to 18px, and left & right padding to 36px*/
 nav ul li a {
     text-decoration: none;
     background-color: #2A0C4E;
     color:#FFF8F0;
     padding: 18px 36px;
 }
+/*Sets background color of links in the nav to floral white when hovered over, and font color to russian violet when hovered over*/
 nav ul li a:hover {
     background-color: #FFF8F0;
     color: #2A0C4E;
