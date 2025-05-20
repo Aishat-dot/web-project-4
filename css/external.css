@@ -4,6 +4,14 @@ An analogous color scheme is a color scheme that uses colors that are next to ea
 The way the colors go from 1 to the other is similar to the way Naawi-Oodena went from the Kapyong Barracks to Naawi-Oodena,
 which is why I chose this color scheme.
 */
+* {
+    box-sizing: border-box;
+    box-sizing: -moz-border-box;
+    box-sizing: -webkit-border-box;
+    box-sizing: -o-border-box;
+    box-sizing: -ms-border-box;
+    line-height: 1.6rem;
+}
 /*Gives all elements with a class value of active a background color of english violet and a font color of floral white.
 It uses english violet which is one of the colors of my color scheme*/
 .active {
